@@ -14,16 +14,16 @@ public class FindTheAdjacentOccurenceOfCharactersInGivenString_3 {
 			
 			if(first == second) {
 				count++;
-			}else {							// logic for appending the character and count 
+			}else {											// logic for appending the character and count 
 				sb.append(first+""+count);
 				count=1;
 			}
 			
-			if(i==arr.length-1) {			// logic for appending the last character and count  
+			if(i==arr.length-1) {							// logic for appending the last character and count  
 				sb.append(second+""+count);
 			}
 			
-			if(!isFound && (first>='A' && first<='Z')) {	// to find index of first upper case letter 
+			if(!isFound && (first>='A' && first<='Z')) {   // to find index of first upper case letter 
 				System.out.println("The index of first Upper Case Letter is : "+ (i-1));
 			}
 		}
