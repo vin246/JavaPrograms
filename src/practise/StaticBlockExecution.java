@@ -9,11 +9,11 @@ public class StaticBlockExecution {
 	}
 
 	{
-		System.out.println("Hell");
+		System.out.println("Hello");
 	}
 
 	public static void main(String[] args) {
-
+		System.out.println("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");
 	}
 	void m1() {
 		System.out.println("HII");
